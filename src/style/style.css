@@ -1,0 +1,36 @@
+/*=======================================
+            TRANSITIONS BASIC 
+========================================*/
+
+.square {
+  background: red;
+  height: 100px;
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.square.square-entered {
+  background: orange;
+}
+
+.square.square-exiting {
+  background: yellowgreen;
+}
+
+.square.square.exited {
+  opacity: 0;
+  transform: translateX(-100);
+}
+/*=======================================
+                CSSTRANSITIONS
+========================================*/
+
+/*=======================================
+                TRANSITIONS GROUP 
+========================================*/
+.tgroup .item {
+  background: #6f42c1;
+  padding: 10px;
+  color: white;
+  margin-bottom: 5px;
+}
